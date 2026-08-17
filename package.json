@@ -1,0 +1,25 @@
+{
+  "name": "resume-analyzer-interview-prep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered Resume Analyzer and Interview Prep Tool built with Next.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "mammoth": "^1.8.0",
+    "next": "14.2.32",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
